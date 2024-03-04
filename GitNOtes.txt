@@ -29,6 +29,19 @@
 
   -git pull origin main : to fetch and download form remote repo 
 
+
+
+  Undo changes:
+   CASE 1: if u mistakenly deleted a change and added it to git the use 
+  -git reset <-file name->
+  if want to reset many files the 
+  -git rest 
+  CASE 2: if commited 1 changes then
+  -git reset HEAD~1
+  CASE 3: if commited multiple changes then
+  -git reset <-commit hash->
+  -git reset --hard <-commit hash->
+
 2. Cloning an existing repository from GitHub
    - Open VS Code and go to File -> Open Folder...
    - Select the parent folder where you want to clone the project into, e.g., Documents/GitHub
