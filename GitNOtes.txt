@@ -5,6 +5,14 @@
     - git status: show the working tree
     - git commit -m "meaningful message"
     - git push main origin (updates the changes in the vs code remote repo with your local one)
+    - git remote add origin (link) : adds a remote reference called 'origin' pointing to your GitHub repo
+    - git remote -v (to verify remote)
+    - git branch : creates and lists branches (to check branch)
+    - git branch -M main  : sets the main as the default branch (it basically changes the name of the branch to main )
+
+    ** - git push -u origin main : this is shortcut to say that form now on all the operation will be done on origin main so form now on we  have to just type git push instead of git push origin main.
+  **
+
 2. Cloning an existing repository from GitHub
    - Open VS Code and go to File -> Open Folder...
    - Select the parent folder where you want to clone the project into, e.g., Documents/GitHub
