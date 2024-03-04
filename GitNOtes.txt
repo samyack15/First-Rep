@@ -12,6 +12,22 @@
 
     ** - git push -u origin main : this is shortcut to say that form now on all the operation will be done on origin main so form now on we  have to just type git push instead of git push origin main.
   **
+    - git checkout branchName : to navigate btw branches
+    - git checkout -b <-new branch name->  : create & switches to a new branch simultaneously
+    - git branch -d <-branch name-> : deletes branch
+    - git merge branchName : merges the specified branch into the current branch
+
+    ## Now what branch does is it creates 2 diff branches like in tree so that if 2 dev are working on a new feature without disturbing each other they can implement both features so in my case what i did is i made a new feature called feature1 and made a change added a new para in index.html, now what it did is it created 2 branches called main and feature1 now it made a copy of index.html in feature1 so that i can make changes and now i can mearge these 2 main and feature1 
+    There are 2 ways 
+    Way 1 :
+      -git diff branchName (to compare commits, branches and files & more )
+      - git merge branchName (it merges 2 branches)
+    Way 2: using GitHub create PR (PUll REQUEST )
+            it tells other you have made changes in repository
+
+##
+
+  -git pull origin main : to fetch and download form remote repo 
 
 2. Cloning an existing repository from GitHub
    - Open VS Code and go to File -> Open Folder...
